@@ -6,14 +6,12 @@
 
 A public record of one question: can a model built on public chart data forecast the Billboard Hot 100 better than the free alternatives?
 
-The repo holds the rules, the bar, a manifest of the weekly log, and the model's frozen predictions. It holds no API keys, no trading code and no market data.
-
+The repo holds the rules, the bar, a manifest of the weekly log, and the model's frozen predictions. It holds no API keys, 
 ## Rules
 
-1. No prediction-market account and no prediction-market data until the bar is met.
-2. Chart data can show forecasting skill. Nothing in this repo is called alpha.
+1
 3. Meeting the bar unlocks one thing: comparing the model's probabilities with public price history, read-only. An account is a separate, later decision.
-4. A pump flag means stay away from that song. It is never a reason to bet.
+
 5. A changed model is a new attempt with a new 13-week test. Every attempt is written in `ATTEMPTS.md` before its test starts.
 
 ## The model
